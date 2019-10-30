@@ -1,7 +1,10 @@
 package com.newwalk.myapplication234324
 
+import android.content.Context
+import android.graphics.Canvas
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.AttributeSet
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -10,7 +13,6 @@ class MainActivity : AppCompatActivity() {
     var totalsum : Float = 0f
     var middlemark : Float = 0f
     var qwerty : Float = 0f
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
